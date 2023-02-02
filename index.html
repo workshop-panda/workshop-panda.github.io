@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Веб-мастерская Panda</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="img/favicon/favicon.png">
+	<link href="module/preloader/preloader.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+	<header class="starter">
+		<div class="starter-about">
+			<div class="starter-logo"></div>
+			<div class="starter-line"></div>
+			<div>
+				<p class="starter-text">Веб-мастерская</p>
+				<p class="starter-text">PANDA</p>
+			</div>
+		</div>
+	</header>
+
+	<section class="portfolio" id="portfolio">
+		<h2>Проекты <span style="color: orange">&lt;17 /&gt;</span></h2>
+		<div class="content">
+			<div class="content-detailing">
+				<div class="picture"></div>
+				<div class="wrapper-description"></div>
+				<div class="close" onclick="showPortfolio();"></div>
+			</div>
+			<div class="content-preview"></div>
+		</div>
+	</section>
+
+	<div id="preloader"></div>
+
+	<script src="libs/jquery/jquery-3.3.1.min.js"></script>
+	<script src="module/preloader/preloader.js"></script>
+	<script src="libs/easypiechart/jquery.easypiechart.min.js"></script>
+	<script src="js/portfolio.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>
